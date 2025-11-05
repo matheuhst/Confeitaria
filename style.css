@@ -6,7 +6,7 @@
 header{
   background-color: #d575e2;
   color: white;
-  height: 150px;
+  height: 135px;
 }
 
 header h1{
@@ -31,6 +31,6 @@ nav ul li{
 
 img{
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
 }
