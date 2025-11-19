@@ -49,7 +49,6 @@ img{
 .paragrafo-texto{
   font-size: 20px;
   text-align: justify;
-  justify-content: center;
 }
 
 .itens-cardapio {
@@ -83,4 +82,13 @@ h3 {
   margin-top: 10px;
   color: #f8b400;
   font-size: 18px;
+}
+
+footer {
+  background-color: #d524db;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
