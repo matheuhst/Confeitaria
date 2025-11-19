@@ -41,8 +41,9 @@ img{
 
 /*Exemplo com classe no css*/
 .sobre_nos{
-  width: 80%;
+  width: 95%;
   text-align: center;
+  padding: 20px;
 }
 
 .paragrafo-texto{
