@@ -50,3 +50,9 @@ img{
   font-size: 20px;
   text-align: justify;
 }
+
+.itens-cardapio {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
