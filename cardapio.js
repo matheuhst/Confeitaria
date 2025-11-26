@@ -30,5 +30,5 @@ function criarItemCardapio(titulo, descricao, foto){
 criarItemCardapio(
     'Bolo de Chocolate',
     'Um clássico irresistível com camadas de chocolate',
-    'https://pt.petitchef.com/imgupl/recipe/bolo-de-chocolate-humido-e-fofinho--lg-454177p704082.webp'
+    'https://media.istockphoto.com/id/1370520449/pt/foto/slice-of-chocolate-cake-with-glaze.jpg?s=612x612&w=0&k=20&c=r3419R_hRAsXjrNulCRpdqp_z9FbuN7p1btwvSJvc0g='
 )
