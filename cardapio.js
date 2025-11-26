@@ -30,5 +30,5 @@ function criarItemCardapio(titulo, descricao, foto){
 criarItemCardapio(
     'Bolo de Chocolate',
     'Um clássico irresistível com camadas de chocolate',
-    'https://media.istockphoto.com/id/1370520449/pt/foto/slice-of-chocolate-cake-with-glaze.jpg?s=612x612&w=0&k=20&c=r3419R_hRAsXjrNulCRpdqp_z9FbuN7p1btwvSJvc0g='
+    'https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2020/05/bolo_chocolate_leite.jpg'
 )
