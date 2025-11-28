@@ -13,9 +13,9 @@ function criarItemCardapio(titulo, descricao, foto){
     
     // add a classe
 
-    const img = document.createElement('img')
-    img.scr = foto
-    img.className = 'img-item'
+    const imgItem = document.createElement('img')
+    imgItem.scr = foto
+    imgItem.className = 'img-item'
 
     // add elementos na div mãe
 
