@@ -10,6 +10,7 @@ function criarItemCardapio(titulo, descricao, foto){
     const pDescricao = document.createElement('p')
     pDescricao.textContent = descricao
     pDescricao.className = 'descricao'
+    
     // add a classe
 
     const img = document.createElement('img')
@@ -30,5 +31,5 @@ function criarItemCardapio(titulo, descricao, foto){
 criarItemCardapio(
     'Bolo de Chocolate',
     'Um clássico irresistível com camadas de chocolate',
-    'https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2020/05/bolo_chocolate_leite.jpg'
+    'https://pt.petitchef.com/imgupl/recipe/bolo-de-chocolate-humido-e-fofinho--lg-454177p704082.webp'
 )
