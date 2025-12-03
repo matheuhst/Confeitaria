@@ -28,6 +28,26 @@ function criarItemCardapio(titulo, descricao, foto){
     divC.appendChild(divItemCardapio)
 }
 
+async function buscarBolos() {
+  const url = "https://confeitaria-w0ef.onrender.com/";
+
+  try {
+    const response = await fetch(url, {
+      method: "GET"
+    });
+
+    if (!response.ok) {
+      throw new Error(`Erro na requisição: ${response.status}`);
+    }
+
+    const dados = await response.json(); // Converte para JSON
+    return dados;
+  } catch (erro) {
+    console.error("Erro ao buscar bolos:", erro);
+    return null;
+  }
+}
+
 criarItemCardapio(
     'Bolo de Chocolate',
     'Um clássico irresistível com camadas de chocolate',
