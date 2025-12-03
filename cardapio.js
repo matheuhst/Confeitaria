@@ -51,7 +51,7 @@ async function buscarBolos() {
 buscarBolos().then(lista => {
   console.log("Lista de bolos:", lista);
   for(let i = 0; i < lista.length; i++){
-    criarItemCardapio(lista.titulo, lista.descricao, lista.foto);
+    criarItemCardapio(lista[i].titulo, lista[i].descricao, lista[i].foto);
 }
 });
 
