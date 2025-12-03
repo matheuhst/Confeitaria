@@ -29,7 +29,7 @@ function criarItemCardapio(titulo, descricao, foto){
 }
 
 async function buscarBolos() {
-  const url = "https://confeitaria-w0ef.onrender.com/";
+  const url = "https://todolist-api-623t.onrender.com";
 
   try {
     const response = await fetch(url, {
