@@ -48,6 +48,10 @@ async function buscarBolos() {
   }
 }
 
+buscarBolos().then(lista => {
+  console.log("Lista de bolos:", lista);
+});
+
 criarItemCardapio(
     'Bolo de Chocolate',
     'Um clássico irresistível com camadas de chocolate',
