@@ -50,10 +50,7 @@ async function buscarBolos() {
 
 buscarBolos().then(lista => {
   console.log("Lista de bolos:", lista);
+  for(const item of lista){
+  criarItemCardapio(lista.titulo, lista.descricao, lista.foto);}
 });
 
-criarItemCardapio(
-    'Bolo de Chocolate',
-    'Um clássico irresistível com camadas de chocolate',
-    'https://pt.petitchef.com/imgupl/recipe/bolo-de-chocolate-humido-e-fofinho--lg-454177p704082.webp'
-)
