@@ -1,5 +1,5 @@
 // Criando elementos HTML no JavaScript dinamicamente
-function criarItemCardapio(titulo, descricao, foto){
+function criarItemCardapio(titulo, descricao, preco, foto){
 
     const divItemCardapio = document.createElement('div')
     divItemCardapio.className = 'item-cardapio'
@@ -17,6 +17,9 @@ function criarItemCardapio(titulo, descricao, foto){
     img.src = foto
     img.className = 'img-item'
 
+    const h3Preco = document.createElement('h3')
+    h3Preco.textContent = preco
+
     // add elementos na div mãe
 
     const divC = document.getElementById('cardapio')
@@ -24,6 +27,7 @@ function criarItemCardapio(titulo, descricao, foto){
     divItemCardapio.appendChild(h3Titulo)
     divItemCardapio.appendChild(pDescricao)
     divItemCardapio.appendChild(img)
+    divItemCardapio.appendChild(h3Preco)
 
     divC.appendChild(divItemCardapio)
 }
@@ -50,7 +54,7 @@ async function buscarBolos() {
 
 buscarBolos().then(lista => {
   for(let i = 0; i < lista.length; i++){
-    criarItemCardapio(lista[i].nome, lista[i].descricao, lista[i].foto);
+    criarItemCardapio(lista[i].nome, lista[i].descricao, lista[i].preco, lista[i].foto);
 }
 });
 
