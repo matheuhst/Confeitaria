@@ -33,7 +33,7 @@ function criarItemCardapio(titulo, descricao, preco, foto){
 }
 
 async function buscarBolos() {
-  const url = "https://todolist-api-623t.onrender.com";
+  const url = "https://confeitaria-api-0ifv.onrender.com";
 
   try {
     const response = await fetch(url, {
