@@ -33,7 +33,7 @@ function criarItemCardapio(titulo, descricao, preco, foto){
 }
 
 async function buscarBolos() {
-  const url = "https://confeitaria-api-0ifv.onrender.com";
+  const url = "https://confeitaria-api-0ifv.onrender.com/cardapio";
 
   try {
     const response = await fetch(url, {
