@@ -5,7 +5,7 @@
 }
 
 header{
-  background-color: #fdebd3;
+  background-color: #f8c74c;
   color: rgba(255, 255, 255, 0.966);
   height: 135px;
   display: flex;
@@ -14,7 +14,7 @@ header{
 }
 
 body{
-  background-color: #FFE5B4;
+  background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -64,7 +64,7 @@ img{
 }
 
 .item-cardapio{
-  border: 2px solid #ffffff;
+  border: 2px solid #ccc;
   border-radius: 5px;
   margin: 20px;
   padding: 10px;
