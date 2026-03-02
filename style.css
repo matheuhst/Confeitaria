@@ -14,9 +14,12 @@ header{
 }
 
 body{
-  background-color: #ffffff;
-    margin: 0;
-    padding: 0;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("imagem.jpg");
+    
+  background-size: cover;
+  background-position: center;
 }
 
 header h1{
@@ -59,6 +62,7 @@ img{
 
 .itens-cardapio {
   display: flex;
+  background-color: #ffffff;
   justify-content: center;
   margin-top: 20px;
 }
