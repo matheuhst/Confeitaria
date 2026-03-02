@@ -93,6 +93,7 @@ img{
   font-size: 25px;
   color: #ffffff;
   text-align: left;
+  justify-content: left;
 }
 
 h3 {
