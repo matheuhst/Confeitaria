@@ -88,6 +88,12 @@ img{
   border-radius: 10px;
 }
 
+.topico-cardapio {
+  margin: auto;
+  font-size: 25px;
+  color: #ffffff;
+}
+
 h3 {
   margin-top: 10px;
   color: #f8b400;
