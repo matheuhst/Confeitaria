@@ -96,6 +96,11 @@ img{
   justify-content: left;
 }
 
+.caixa-escura {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
 h3 {
   margin-top: 10px;
   color: #f8b400;
