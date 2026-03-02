@@ -48,14 +48,14 @@ img{
 
 /*Exemplo com classe no css*/
 .sobre_nos{
-  color: #ffffff;
+  color: #fdceff;
   width: 95%;
   text-align: center;
   padding: 20px;
 }
 
 .paragrafo-texto{
-  color: #ffffff;
+  color: #fdceff;
   font-size: 20px;
   text-align: justify;
 }
