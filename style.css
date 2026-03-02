@@ -26,8 +26,8 @@ header h1{
 }
 
 h1{
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 nav ul{
@@ -48,12 +48,14 @@ img{
 
 /*Exemplo com classe no css*/
 .sobre_nos{
+  color: #ffffff;
   width: 95%;
   text-align: center;
   padding: 20px;
 }
 
 .paragrafo-texto{
+  color: #ffffff;
   font-size: 20px;
   text-align: justify;
 }
