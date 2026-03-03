@@ -113,6 +113,7 @@ a {
 .img-produto {
   display: flex;
   justify-content: left;
+  color: #ffffff;
 }
 
 .caixa-escura {
