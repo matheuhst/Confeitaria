@@ -118,6 +118,11 @@ a {
   text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 
+.txt-confeitaria{
+  color: #fff6d5; /* creme claro, não é branco */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
 .item-cardapio:hover{
   transform: scale(1.05);
 }
