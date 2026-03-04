@@ -107,6 +107,11 @@ a {
   border-radius: 10px;
 }
 
+.div-img-produto {
+  display: flex;
+  justify-content: left;
+}
+
 .topico-cardapio {
   margin: auto;
   font-size: 25px;
