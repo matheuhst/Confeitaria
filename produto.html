@@ -20,7 +20,7 @@
           <nav class="txt-confeitaria">
               <ul>
                   <li><b>
-                    <a class="link" href="index.html">Início</a>
+                    <a class="link" href="index.html" style="text-decoration: none;">Início</a>
                   </b></li>
                   <li><b>Sobre</b></li>
                   <li><b>Cardápio</b></li>
@@ -30,24 +30,26 @@
         </div>
       </header>
 
-      <div>
+      <section class="cardapio">
+          <div class="item-produto">
+              <div class="imagem-item">
+                  <img id="imagemProduto" class="img-item">
+              </div>
 
-        <div class="sobre_nos caixa-escura">
-          <h2 style="font-size: 25px;">Cardápio:</h2>
-        </div>
+              <div class="info-item">
+                  <h3 id="nomeProduto"></h3>
+                  <p id="descricaoProduto">
+                  </p>
 
-        <hr />
+                  <p><strong>Ingredientes:</strong> Morango, farinha, ovos, açúcar, creme</p>
+                  <p class="preco">R$ 49,90</p>
 
-        <div class="div-img-produto">
-          <img id="imagemProduto" class="img-item">
-        </div>
+                  <p class="avaliacao">⭐⭐⭐⭐⭐ (124 avaliações)</p>
 
-        <div class="produto">
-          <h2 id="nomeProduto" color="#ffffff"></h2>
-          <p id="descricaoProduto"></p>
-        </div>
-      </div>
-      
+                  <button class="btn-pedir">Fazer Pedido</button>
+              </div>
+          </div>
+      </section>
       <footer>
         <p>
           &copy; 2026 Confeitaria Sempre Doce. Todos os direitos reservados.

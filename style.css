@@ -123,6 +123,58 @@ a {
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 
+.cardapio {
+    padding: 60px 80px; /* distância do topo e lateral */
+}
+
+.titulo-cardapio {
+    text-align: left; /* joga pra esquerda */
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.item-produto {
+    display: flex;
+    gap: 40px; /* espaço entre imagem e texto */
+    background: rgba(255,255,255,0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-width: 900px;
+}
+
+.imagem-item img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #7b2cbf; /* roxo bonito */
+}
+
+.btn-pedir {
+    width: 160px;
+    padding: 10px;
+    border: none;
+    background: #f8d56b;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-pedir:hover {
+    background: #f3a6d6;
+}
+
 .item-cardapio:hover{
   transform: scale(1.05);
 }
