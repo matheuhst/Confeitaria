@@ -147,7 +147,7 @@ a {
 
 .div-img-produto {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .topico-cardapio {
