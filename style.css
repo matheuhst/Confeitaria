@@ -5,6 +5,7 @@
 }
 
 header{
+  background: linear-gradient(to right, #f8d56b, #f3a6d6);
   background-color: #fdd250;
   color: rgba(255, 255, 255, 0.966);
   height: 135px;
