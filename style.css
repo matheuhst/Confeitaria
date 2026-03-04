@@ -66,6 +66,17 @@ a {
   padding: 20px;
 }
 
+.logo-titulo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    gap: 10px; /* Espaço entre imagem e texto */
+}
+
+.logo {
+    width: 40px; /* Tamanho pequeno da logo */
+    height: auto;
+}
+
 .paragrafo-texto{
   color: #fee5ff;
   font-size: 20px;
