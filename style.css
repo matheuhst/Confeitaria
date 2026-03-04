@@ -170,8 +170,11 @@ h3 {
 }
 
 footer {
-  background-color: #fdd250;
-  color: #9c5dd8;
+  background: linear-gradient(270deg, #f8d56b, #f3a6d6, #c084f5);
+  background-size: 600% 600%;
+  animation: gradientMove 6s ease infinite;
+
+  color: #fff6d5;
   height: 50px;
   display: flex;
   align-items: center;
