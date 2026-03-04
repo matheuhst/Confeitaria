@@ -5,14 +5,28 @@
 }
 
 header{
-  background: linear-gradient(to right, #f8d56b, #f3a6d6);
-  background-color: #fdd250;
+  background: linear-gradient(270deg, #f8d56b, #f3a6d6, #c084f5);
+  background-size: 600% 600%;
+
+  animation: gradientMove 8s animation: gradientMove 10s linear infinite;
   color: rgba(255, 255, 255, 0.966);
   height: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 body{
