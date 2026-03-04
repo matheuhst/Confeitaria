@@ -99,6 +99,7 @@ a {
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 
 .item-cardapio:hover{
@@ -149,7 +150,7 @@ h3 {
 
 footer {
   background-color: #fdd250;
-  color: white;
+  color: #9c5dd8;
   height: 50px;
   display: flex;
   align-items: center;
