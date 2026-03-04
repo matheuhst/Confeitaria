@@ -86,7 +86,7 @@ a {
 
 .logo-titulo {
     display: flex;
-    align-items: center;
+    align-items: 30px;
     gap: 10px; /* Espaço entre imagem e texto */
 }
 
