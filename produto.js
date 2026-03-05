@@ -7,7 +7,7 @@ const produtos = {
     chocolate: {
         nome: "Bolo de Chocolate",
         descricao: "Um clássico irresistível com camadas de chocolate.",
-        imagem: "https://pt.petitchef.com/imgupl/recipe/bolo-de-chocolate-humido-e-fofinho--lg-454177p704082.webp",
+        imagem: "https://static.itdg.com.br/images/640-400/81db64065b43b8554888bff9a6d1eb8b/73267-195930-original.jpg",
         preco: "R$ 32,00"
     },
     morango: {
