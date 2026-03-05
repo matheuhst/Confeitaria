@@ -74,6 +74,7 @@ img{
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 /*Exemplo com classe no css*/
