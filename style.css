@@ -81,6 +81,13 @@ nav a:hover {
     color: #7b2cbf;
 }
 
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, purple, yellow, transparent);
+    margin: 20px 0;
+}
+
 /*Exemplo com classe no css*/
 .sobre_nos{
   color: #fee5ff;
