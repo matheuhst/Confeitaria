@@ -53,6 +53,6 @@ if (produtos[item]) {
     document.getElementById("nomeProduto").textContent = produtos[item].nome;
     document.getElementById("descricaoProduto").textContent = produtos[item].descricao;
     document.getElementById("imagemProduto").src = produtos[item].imagem;
-    document.getElementById("precoProduto").src = produtos[item].preco;
-    document.getElementById("ingredientesProduto").src = produtos[item].ingredientes;
+    document.getElementById("precoProduto").textContent = produtos[item].preco;
+    document.getElementById("ingredientesProduto").textContent = produtos[item].ingredientes;
 }
