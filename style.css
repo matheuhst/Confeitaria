@@ -130,6 +130,9 @@ nav a:hover {
 
 .cardapio {
     padding: 60px 80px; /* distância do topo e lateral */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-cardapio {
