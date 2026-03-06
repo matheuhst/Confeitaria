@@ -91,13 +91,12 @@ nav a:hover {
 
 .logo-titulo {
     display: flex;
-    justify-content: left;
     align-items: 30px;
     gap: 10px; /* Espaço entre imagem e texto */
 }
 
 .logo {
-    width: 250px; /* Tamanho pequeno da logo */
+    width: 100px; /* Tamanho pequeno da logo */
     height: auto;
 }
 
