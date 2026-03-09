@@ -100,7 +100,7 @@ hr {
 .logo-titulo {
     display: flex;
     align-items: 30px;
-    gap: 10px; /* Espaço entre imagem e texto */
+    gap: 1000px; /* Espaço entre imagem e texto */
 }
 
 .logo {
