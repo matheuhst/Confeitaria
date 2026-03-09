@@ -98,14 +98,19 @@ hr {
 }
 
 .logo-titulo {
-  justify-content: left;
-    align-items: 30px;
-     /* Espaço entre imagem e texto */
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .logo {
-    width: 100px; /* Tamanho pequeno da logo */
+    width: 120px; /* Tamanho pequeno da logo */
     height: auto;
+}
+
+.titulo{
+    margin: 0;
 }
 
 .paragrafo-texto{
