@@ -99,7 +99,6 @@ hr {
 
 .logo-titulo {
     display: flex;
-    justify-content: left;
     align-items: 30px;
      /* Espaço entre imagem e texto */
 }
