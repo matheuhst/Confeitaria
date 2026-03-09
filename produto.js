@@ -49,7 +49,7 @@ const produtos = {
         ninho: {
         nome: "Bolo de Lete Ninho",
         descricao: "O perfeito para ocasiões especiais!",
-        imagem: "https://teamodoce.com.br/wp-content/uploads/2025/07/Bolo-de-Leite-Ninho-de-Liquidificador.webp",
+        imagem: "https://www.minhasreceitas.blog.br/wp-content/uploads/2020/08/Bolo-de-leite-Ninho-com-cobertura-de-creme-de-leite-Ninho.jpg.webp",
         preco: "R$ 45,00",
         ingredientes: "Leite ninho, farinha de trigo, açúcar, ovos, leite, manteiga ou óleo, fermento químico em pó, leite condensado, creme de leite, essência de baunilha"
     },
